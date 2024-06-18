@@ -1,9 +1,12 @@
-# [Flappy Bird](https://youtu.be/jj5ADM2uywg)
-- Coding Tutorial: https://youtu.be/jj5ADM2uywg
-- Demo: https://imkennyyip.github.io/flappy-bird/
+# Our New Goals
+## 새로운 시나리오 적용
+* 없음. 
+## 기능구현 로드맵
+* 전체 화면 사용하도록 게임 화면 사이즈 조정
+* 파이프를 조금 더 여유롭게 배치하도록 설정값 조정
+* 파이프이외에 다른 이미지 사용할 수 있게 할 것
+* 장애물에 나쁜 특성들의 타이틀을 달 수 있도록 코드 수정
+* 게임 시작 ,멈춤, 성공 화면 추가
+* 새로 만들어진 이미지 사용하기
 
-In this tutorial, you will learn to create the flappy bird game with html, css, and javascript. Specifically, you will learn how to code the game using html5 canvas. 
-
-Throughout the tutorial, you will learn how to create the game loop, add images onto the canvas, add click handlers to make the flappy bird jump, randomly generate pipes and move them across the screen, detect collisions between the flappy bird and each pipe, and add a running score. 
-
-![flappy-bird-sample](https://user-images.githubusercontent.com/78777681/219966636-72584cb3-d471-41c0-872f-62c230dccc47.png)
+  
