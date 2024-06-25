@@ -1,9 +1,23 @@
 body {
-    font-family:'Courier New', Courier, monospace;
-    text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  background-image: url("./flappybirdbg.png");
+  background-repeat: repeat-x;
+  background-position: 0 0;
+  background-size: auto 800px;
+  animation: scroll 10s linear infinite;
 }
 
 #board {
-    /* background-color: skyblue; */
-    background-image: url("./flappybirdbg.png");
+  /* background-color: skyblue; */
+}
+
+@keyframes scroll {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: -100% 0;
+  }
 }
